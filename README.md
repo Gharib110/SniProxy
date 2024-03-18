@@ -1,5 +1,6 @@
 # SniProxy
 SniProxy based on dnsmasq and nginx
+It works like shecan.ir in Iran
 
 ## How to Run ?!
 - Install docker and docker-compose
