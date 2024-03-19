@@ -1,4 +1,3 @@
-# JUST FOR PERSONAL USE, DO NOT USE AS A COMMERCIAL PRODUCT PLEASE
 # SniProxy
 SniProxy based on dnsmasq and nginx
 It works like shecan.ir in Iran
