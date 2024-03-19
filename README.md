@@ -13,3 +13,9 @@ It works like shecan.ir in Iran
 - It is not safe to use it as Plain DNS, configure it with DOH. Use `` dnscrypt/doh-proxy ``
 - Also try to limit dnsmasq  to `` lo `` interface, localhost
 - Put Doh-Proxy behind a reverse proxy
+- I wrote a script to add all sanctioned domains in Iran into multiple files
+- You can use it to update your domains list
+
+## Thanks !
+[v2ray](https://github.com/v2ray/domain-list-community)
+[v2fly](https://github.com/v2fly/domain-list-community)
