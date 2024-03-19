@@ -10,4 +10,4 @@ It works like shecan.ir in Iran
 - It could be resource intensive task to serve this dns service to many people so bring a powerhouse
 - I tested on a 2gigs 2 cpus vps and It is OK for me and my family and friends
 - It is not safe to use it as Plain DNS, configure it with DOH. Use `` dnscrypt/doh-proxy ``
-- Also try to limit it to `` lo `` interface, localhost
+- Also try to limit dnsmasq  to `` lo `` interface, localhost
