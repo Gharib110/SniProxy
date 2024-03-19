@@ -36,14 +36,14 @@ def modify_line(line, start_text, end_text):
 
 
 # Input directory path
-directory_path = 'C:/Users/Asus/Desktop/domain-list-community-master/data'
+directory_path = './domain-list-community-master/data'
 
 # Text to add at the beginning and end of each line
 start_text = "address=/."
 end_text = "/MY_IP_SERVER"
 
 # Output file path
-output_file_path = 'C:/Users/Asus/Desktop/domain-list-community-master/data/16merged_output.txt'
+output_file_path = './domain-list-community-master/data/16merged_output.txt'
 
 # String to be removed from each line
 string_to_remove = "@cn"
@@ -73,8 +73,8 @@ with open(output_file_path, 'w') as output_file:
                             modified_line = modified_line.replace(string_to_remove3, '')
                             output_file.write(modified_line)
 
-p_input_file = "C:/Users/Asus/Desktop/domain-list-community-master/data/16merged_output.txt"  # Change this to your input file name
-p_output_file = "C:/Users/Asus/Desktop/domain-list-community-master/data/166merged_output.txt"  # Change this to your output file name
+p_input_file = "./domain-list-community-master/data/16merged_output.txt"  # Change this to your input file name
+p_output_file = "./domain-list-community-master/data/166merged_output.txt"  # Change this to your output file name
 process_file(p_input_file, p_output_file)
 
 print("Merge and string removal completed!")
