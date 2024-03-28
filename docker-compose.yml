@@ -18,3 +18,4 @@ services:
     volumes:
       - ./dnsmasq/dnsmasq.conf:/etc/dnsmasq.conf
       - ./dnsmasq/proxy.conf:/etc/dnsmasq.d/proxy.conf
+      - ./dnsmasq/hosts:/etc/hosts
