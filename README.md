@@ -8,10 +8,9 @@ It works like shecan.ir in Iran
 - Change docker-compose.yml based on your preferences !
 - I try to update the `` dnsmasq/proxy.conf `` file based on the internet status of Iran
 - It could be resource intensive task to serve this dns service to many people so bring a powerhouse
-- I tested on a 2gigs 2 cpus vps and It is OK for me and my family and friends
-- It is not safe to use it as Plain DNS, configure it with DOH. Use `` dnscrypt/doh-proxy ``
-- Also try to limit dnsmasq  to `` lo `` interface, localhost
-- Put Doh-Proxy behind a reverse proxy
+- I tested on a 2gigs 2 cpus vps and It is OK for me, my family, and friends
+- Also dnsmasq is limited to `` lo `` interface, localhost
+- Use AdGuard Home to deploy DOT, DOH, and use it with SniProxy
 - I wrote a script to add all sanctioned domains in Iran into multiple files
 - You can use it to update your domains list
 - I have added a hosts file which helps you to block (Ads, Malwares, Porn, Fakenews and Gambling Websites), like pi-hole but along with SniProxy Capability
