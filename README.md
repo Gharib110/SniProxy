@@ -15,6 +15,7 @@ It works like shecan.ir in Iran
 - You can use it to update your domains list
 - I have added a hosts file which helps you to block (Ads, Malwares, Porn, Fakenews and Gambling Websites), like pi-hole but along with SniProxy Capability
 - Also you can check Steven Black github repo to change the hosts file based on your preferences
+- You can deploy a wiregaurd VPN on Iran VPS and set its DNS to the ip address of your SNI-PROXY
 ## Thanks !
 [v2ray](https://github.com/v2ray/domain-list-community)
 [v2fly](https://github.com/v2fly/domain-list-community)
